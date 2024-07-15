@@ -13,8 +13,8 @@
 
 2. Clone the repository:
 
- git clone https://github.com/hemanth8660/task-manager.git
- cd task-manager
+  git clone https://github.com/hemanth8660/task-manager.git
+  cd task-manager
 
 3. Install the dependencies:
     npm install
@@ -65,13 +65,13 @@ The API can be accessed at `http://localhost:3000/api`
 
 ### Update a Task
 
-- **Endpoint**: `api/tasks/:id
+- **Endpoint**: `api/tasks/:id`
 - **Method**: `PUT`
 - **Description**: Update a task by its ID.
 
 ### Delete a Task
 
-- **Endpoint**: `api/tasks/:id
+- **Endpoint**: `api/tasks/:id`
 - **Method**: `DELETE`
 - **Description**: Delete a task by its ID.
 
