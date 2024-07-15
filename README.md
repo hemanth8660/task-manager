@@ -29,10 +29,49 @@ The API can be accessed at `http://localhost:3000/api`
 
 ### Get All Tasks
 
-Retrieve all tasks.
-
-- **URL**: `/api/tasks`
+- **Endpoint**: `/api/tasks`
 - **Method**: `GET`
-- **Response**:
-  - `200 OK` with an array of tasks.
+- **Description**: Retrieve all tasks.
+
+### Filter Tasks
+
+- **Endpoint**: `/api/filterTask`
+- **Method**: `GET`
+- **Description**: Filter tasks based on certain criteria.(Based On CreatedAt Date)
+
+### Create a Task
+
+- **Endpoint**: `api/tasks`
+- **Method**: `POST`
+- **Description**: Create a new task.
+
+### Get Task by ID
+
+- **Endpoint**: `/api/tasks/:id`
+- **Method**: `GET`
+- **Description**: Retrieve a task by its ID.
+
+### Get Tasks by Priority
+
+- **Endpoint**: `/api/tasks/priority/:level`
+- **Method**: `GET`
+- **Description**: Retrieve tasks by their priority level.
+
+### Set Task Priority
+
+- **Endpoint**: `api/tasks/priority`
+- **Method**: `PUT`
+- **Description**: Set the priority of a task.
+
+### Update a Task
+
+- **Endpoint**: `api/tasks/:id
+- **Method**: `PUT`
+- **Description**: Update a task by its ID.
+
+### Delete a Task
+
+- **Endpoint**: `api/tasks/:id
+- **Method**: `DELETE`
+- **Description**: Delete a task by its ID.
 
