@@ -1,0 +1,9 @@
+name: 'github-action-flow-1'
+on: push
+jobs:
+  build:
+    run-ons: ubuntu-latest
+    actions: 
+      - uses: actions/checkout@v3
+      - name: action1
+      - run: echo "ran succesfully" 
