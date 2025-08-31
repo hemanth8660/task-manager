@@ -2,7 +2,7 @@ name: 'github-wf-1'
 on: push
 jobs: 
   build:
-    run-ons: ubuntu-latest
+    rus-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: 'sample-name' 
